@@ -4,18 +4,12 @@ class Song
 
   def initialize(name)
     @name = name
-    @@all << song
-  end
-
-  @@all =[ ]
+  end 
 
   def artist_name
     if self.artist
       self.artist.name
     end
+  end 
 
-  def song.all
-    @@all
-  end
- end
-end
+end 
