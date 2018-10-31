@@ -7,6 +7,8 @@ class Song
     @@all << song
   end
 
+  @@all =[ ]
+
   def artist_name
     if self.artist
       self.artist.name
